@@ -84,4 +84,4 @@ En caso de error, se imprime "Error\n" seguido de una descripción.
 
  Parsing de mapas, structuras de datos (char **, flood‑fill).
 
-    Manejo de memoria, Makefile modular.
+ Manejo de memoria, Makefile modular.
