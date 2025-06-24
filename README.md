@@ -3,23 +3,23 @@ so_long
 Mini‑juego en C desarrollado con la biblioteca gráfica MiniLibX (usada en 42), donde el jugador debe recoger todos los elementos del mapa y llegar a la salida en el mínimo de movimientos.
 🧩 Características
 
-    Renderizado en 2D con sprites (.xpm) y ventana gráfica.
+Renderizado en 2D con sprites (.xpm) y ventana gráfica.
 
-    Movimiento del jugador con flechas o WASD.
+Movimiento del jugador con flechas o WASD.
 
-    Contador de movimientos visible en consola o ventana.
+Contador de movimientos visible en consola o ventana.
 
-    Validación de mapas .ber:
+Validación de mapas .ber:
 
-        Forma rectangular y rodeados de paredes (1).
+Forma rectangular y rodeados de paredes (1).
 
-        Contienen exactamente un jugador (P), al menos una salida (E) y uno o más coleccionables (C).
+Contienen exactamente un jugador (P), al menos una salida (E) y uno o más coleccionables (C).
 
-        Conexión válida: existe ruta hacia todos los coleccionables y la salida.
+Conexión válida: existe ruta hacia todos los coleccionables y la salida.
 
-    Manejo de errores con mensajes descriptivos y salida limpia.
+Manejo de errores con mensajes descriptivos y salida limpia.
 
-    Escape con tecla ESC o botón de cerrar ventana.
+Escape con tecla ESC o botón de cerrar ventana.
 
 
 📘 Estructura del repositorio
@@ -34,10 +34,10 @@ mlx/                # MiniLibX (o clonado automáticamente)
 
 🚀 Instalación y ejecución
 
-    Clona el repositorio:
+clona el repositorio
 
-git clone https://github.com/Albertiito13/so_long
-cd so_long
+    git clone https://github.com/Albertiito13/so_long
+    cd so_long
 
 Asegúrate de tener instalada MiniLibX:
 
@@ -45,7 +45,7 @@ Asegúrate de tener instalada MiniLibX:
 
 Compila el ejecutable:
 
-make   
+    make   
 
 Juega con un mapa .ber:
 
@@ -53,35 +53,35 @@ Juega con un mapa .ber:
 
 🛠 Controles
 
-    W, A, S, D : mover jugador.
+W, A, S, D : mover jugador.
 
-    ESC: cerrar el juego / ventana.
+ESC: cerrar el juego / ventana.
 
 🗺 Reglas de creación de mapas .ber
 
-    Deben contener únicamente los caracteres 1, 0, C, E, P (y X para enemigos en bonus).
+Deben contener únicamente los caracteres 1, 0, C, E, P (y X para enemigos en bonus).
 
-    Ser completamente rodeados por muros.
+Ser completamente rodeados por muros.
 
-    Tener al menos un coleccionable y una salida, y exactamente un jugador.
+Tener al menos un coleccionable y una salida, y exactamente un jugador.
 
-    Ser planos (rectangulares) con rutas válidas.
+Ser planos (rectangulares) con rutas válidas.
 
-    En caso de error, se imprime "Error\n" seguido de una descripción.
+En caso de error, se imprime "Error\n" seguido de una descripción.
     
 
 ✅ Buenas prácticas
 
-    Gestiona errores de forma clara.
+ Gestiona errores de forma clara.
 
-    Evita fugas de memoria (usa free y mlx_destroy_*).
+ Evita fugas de memoria (usa free y mlx_destroy_*).
 
-    Testea tus mapas con valgrind o herramientas similares.
+ Testea tus mapas con valgrind o herramientas similares.
 
 🧠 Qué aprendí
 
-    Uso de MiniLibX: creación de ventanas, detección de eventos, render de sprites.
+ Uso de MiniLibX: creación de ventanas, detección de eventos, render de sprites.
 
-    Parsing de mapas, structuras de datos (char **, flood‑fill).
+ Parsing de mapas, structuras de datos (char **, flood‑fill).
 
     Manejo de memoria, Makefile modular.
