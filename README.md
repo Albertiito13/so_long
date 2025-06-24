@@ -1,4 +1,4 @@
-so_long
+SO_LONG
 
 Mini‑juego en C desarrollado con la biblioteca gráfica MiniLibX (usada en 42), donde el jugador debe recoger todos los elementos del mapa y llegar a la salida en el mínimo de movimientos.
 🧩 Características
@@ -24,13 +24,13 @@ Escape con tecla ESC o botón de cerrar ventana.
 
 📘 Estructura del repositorio
 
-src/                # Código fuente en C
-include/            # Archivos `.h`
-assets/             # Sprites `.xpm`
-maps/               # Mapas ejemplo `.ber`
-Makefile            # Reglas para compilar (all, bonus, clean, fclean, re)
-get_next_line/      # Utilidad de lectura de líneas
-mlx/                # MiniLibX (o clonado automáticamente)
+    src/                # Código fuente en C
+    include/            # Archivos `.h`
+    assets/             # Sprites `.xpm`
+    maps/               # Mapas ejemplo `.ber`
+    Makefile            # Reglas para compilar (all, bonus, clean, fclean, re)
+    get_next_line/      # Utilidad de lectura de líneas
+    mlx/                # MiniLibX (o clonado automáticamente)
 
 🚀 Instalación y ejecución
 
